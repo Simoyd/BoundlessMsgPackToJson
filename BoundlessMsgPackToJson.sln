@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoundlessMsgPackToJson", "BoundlessMsgPackToJson\BoundlessMsgPackToJson.csproj", "{5FC60A55-8ABF-4A4F-9883-0C8C8DCE5C12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FC60A55-8ABF-4A4F-9883-0C8C8DCE5C12}.Debug|x64.ActiveCfg = Debug|x64
+		{5FC60A55-8ABF-4A4F-9883-0C8C8DCE5C12}.Debug|x64.Build.0 = Debug|x64
+		{5FC60A55-8ABF-4A4F-9883-0C8C8DCE5C12}.Release|x64.ActiveCfg = Release|x64
+		{5FC60A55-8ABF-4A4F-9883-0C8C8DCE5C12}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83A9F1E5-91E4-4189-AA91-EB611A5DC278}
+	EndGlobalSection
+EndGlobal
