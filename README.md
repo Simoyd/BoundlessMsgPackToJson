@@ -9,4 +9,5 @@ Converts a MsgPack file used by Boundless into a JSON file.
 
   --help          Display this help screen.
 
-  --version       Display version information.```
+  --version       Display version information.
+```
