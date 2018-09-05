@@ -28,7 +28,17 @@ namespace BoundlessMsgPackToJson
                 {
                     Console.WriteLine($"File: {Path.GetFileNameWithoutExtension(curFile)}");
 
-                    string realOutDir = Path.Combine(outputDir, Path.GetDirectoryName(curFile).Substring(inputFile.Length), $"{Path.GetFileNameWithoutExtension(curFile)}.json");
+                    string realOutDir;
+
+                    string subdir = Path.GetDirectoryName(curFile);
+                    if (subdir.Length > inputFile.Length)
+                    {
+                        realOutDir = Path.Combine(outputDir, Path.GetDirectoryName(curFile).Substring(inputFile.Length), $"{Path.GetFileNameWithoutExtension(curFile)}.json");
+                    }
+                    else
+                    {
+                        realOutDir = Path.Combine(outputDir, $"{Path.GetFileNameWithoutExtension(curFile)}.json");
+                    }
 
                     DoParseMsgpack(realOutDir, curFile);
                 }
